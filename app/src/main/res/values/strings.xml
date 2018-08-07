@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_submit">Submit</string>
+    <string name="add_player_title">Welcome! \nPlease Enter Your Names</string>
+    <string name="player1_name">Player 1</string>
+    <string name="player2_name">Player 2</string>
 </resources>
