@@ -8,16 +8,16 @@
     tools:layout_editor_absoluteY="81dp">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/player2"
         android:layout_width="0dp"
         android:layout_height="43dp"
         android:layout_marginTop="72dp"
         android:ems="10"
         android:hint="@string/player2_name"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editText2"
-        app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintEnd_toEndOf="@+id/player1"
+        app:layout_constraintStart_toStartOf="@+id/player1"
+        app:layout_constraintTop_toBottomOf="@+id/player1" />
 
     <Button
         android:id="@+id/button"
@@ -27,9 +27,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="104dp"
         android:hint="@string/button_submit"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
-        app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        android:onClick="sendNames"
+        app:layout_constraintEnd_toEndOf="@+id/player2"
+        app:layout_constraintStart_toStartOf="@+id/player2"
+        app:layout_constraintTop_toBottomOf="@+id/player2" />
 
     <TextView
         android:id="@+id/textView"
@@ -46,7 +47,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/player1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
