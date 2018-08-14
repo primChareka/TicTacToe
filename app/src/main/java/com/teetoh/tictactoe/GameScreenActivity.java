@@ -26,15 +26,15 @@ public class GameScreenActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.currentPlayer);
         textView.setText("Its "+player1+"'s turn");
 
-        setSquare();
+        //setSquare();
     }
 
 
     public void setSquare(View view){
 
-        if(8)
+
         String value = current_player==1?"X":"0";
-        button.setHint(value);
+        //button.setHint(value);
     }
     public void winner(){
 
