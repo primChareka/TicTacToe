@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GameScreenActivity.class);
 
 
-        EditText editText = (EditText) findViewById(R.id.player1);
+        EditText editText = findViewById(R.id.player1);
         String name1 = editText.getText().toString();
         intent.putExtra(PLAYER1, name1);
 
-        editText = (EditText) findViewById(R.id.player2);
+        editText = findViewById(R.id.player2);
         String name2 = editText.getText().toString();
         intent.putExtra(PLAYER2, name2);
 
